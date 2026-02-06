@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cotización</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Solicitud de Cotización</h1>
+    <p>Completa el formulario y te contactaremos a la brevedad</p>
+</header>
+
+<section>
+    <form class="formulario">
+
+        <label>Nombre completo</label>
+        <input type="text" placeholder="Tu nombre" required>
+
+        <label>Correo electrónico</label>
+        <input type="email" placeholder="correo@ejemplo.com" required>
+
+        <label>Teléfono</label>
+        <input type="tel" placeholder="+00 000 000 000">
+
+        <label>Producto de interés</label>
+        <select required>
+            <option value="">Selecciona una opción</option>
+            <option>Windows Server 2019 Standard</option>
+            <option>Windows Server 2022 Standard</option>
+            <option>Windows Server Datacenter</option>
+        </select>
+
+        <label>Mensaje</label>
+        <textarea placeholder="Describe tu necesidad o cantidad de licencias"></textarea>
+
+        <button type="submit" class="btn">Enviar Solicitud</button>
+
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 - Venta de Licencias Windows Server</p>
+</footer>
+
+</body>
+</html>

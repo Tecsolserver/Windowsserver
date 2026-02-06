@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background-color: #0078d4;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+/* SECCIONES */
+section {
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h2 {
+    color: #0078d4;
+}
+
+/* PRODUCTOS */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+/* PRECIO */
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    color: #0078d4;
+}
+
+/* BOTONES */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0078d4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #005ea6;
+}
+
+/* FORMULARIO */
+.formulario {
+    background: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.formulario label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.formulario input,
+.formulario select,
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.formulario textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.formulario button {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
