@@ -101,6 +101,13 @@ h2 {
     cursor: pointer;
 }
 
+.product-img {
+    width: 100%;
+    max-width: 220px;
+    margin: 0 auto 15px;
+    display: block;
+}
+
 
 /* FOOTER */
 footer {
